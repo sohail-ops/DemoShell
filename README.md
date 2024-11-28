@@ -1,2 +1,2 @@
 # DemoShell
-Demo scripts to start with DevOps
+Demo scripts to start with Scripting
