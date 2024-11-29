@@ -29,11 +29,11 @@ check_high_usage() {
 echo "Disk Usage Summary" # Main heading
 
 # Display the total disk usage
-#display_total_usage
+display_total_usage
 
 # Display detailed usage of each mounted file system
 echo ""
-#display_filesystem_usage
+display_filesystem_usage
 
 # Check and warn for file systems with more than 80% usage
 echo ""
