@@ -19,8 +19,8 @@ check_high_usage() {
     echo "Checking for High Disk Usage:"
     # AWK checks each file system's usage percentage ($5 column)
     # Rows with usage > 80% trigger a warning message
-    #df -h | awk 'NR > 1 {if ($5+0 > 80) print "Warning: Filesystem "$1" is "$5" full!"}'
-    df -h | awk 'NR > 1 {if ($5+0 > 80) print "Warning: Filesystem "$1" is "$5" full!"}'
+#    df -h | awk 'NR > 1 {if ($5+0 > 80) print "Warning: Filesystem "$1" is "$5" full!"}'
+    df -h | awk 'NR>1' if(( $5+0 > 2 )) && echo "Warning: Filesystem "$1" is "$5" full!" || echo "None"
 }
 
 # Main Script Execution
