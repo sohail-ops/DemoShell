@@ -4,9 +4,3 @@ Write a bash script named disk_usage.sh that:
 1. Displays the total disk usage of the system.
 2. Shows the usage of each mounted file system.
 3. If any file system is more than 80% full, display a warning message.
-
-
-git config --global user.name "sohail-ops"
-git config --global user.email sohail.patel@neosoftmail.com
-
-https://github.com/sohail-ops/DemoShell.git
