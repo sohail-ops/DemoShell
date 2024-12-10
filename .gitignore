@@ -2,3 +2,4 @@ logs/
 main.log
 *.log
 kickstart-angular/
+.vscode/
